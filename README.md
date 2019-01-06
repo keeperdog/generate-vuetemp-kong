@@ -1,6 +1,6 @@
-# vue-template
-npm plugin, just for studying
 # generate-vuetemp-kong
+npm plugin, just for studying
+
 
 
 一个快速生成页面文件的插件，搭配vue模版使用。  
