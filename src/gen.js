@@ -21,15 +21,15 @@ module.exports = {
                         if (err) return console.error(err)
                         if (exists) return console.info("file has been created")
 
-                        fs.copy('./src/template/page.vue', destPageFile, err => {
+                        fs.copy('C:/Users/Bruce\AppData\Roaming\npm\node_modules\generate-vuetemp-kong\src\template/page.vue', destPageFile, err => {
                             if (err) return console.error(err)
                             console.info(`${destPageFile} has been created`)
                         })
-                        fs.copy('./src/template/page.less', destStyleFile, err => {
+                        fs.copy('/usr/local/lib/node_modules/generate-vuetemp-kong/src/template/page.less', destStyleFile, err => {
                             if (err) return console.error(err)
                             console.info(`${destStyleFile} has been created`)
                         })
-                        fs.copy('./src/template/page.js', destJsFile, err => {
+                        fs.copy('/usr/local/lib/node_modules/generate-vuetemp-kong/src/template/page.js', destJsFile, err => {
                             if (err) return console.error(err)
                             console.info(`${destJsFile} has been created`)
                         })
@@ -41,7 +41,7 @@ module.exports = {
                         if (err) return console.error(err)
                         if (exists) return console.info("file has been created")
 
-                        fs.copy('./src/template/component.vue', destComponentFile, err => {
+                        fs.copy('/usr/local/lib/node_modules/generate-vuetemp-kong/src/template/component.vue', destComponentFile, err => {
                             if (err) return console.error(err)
                             console.info(`${destComponentFile} has been created`)
                         })
